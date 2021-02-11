@@ -9,14 +9,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafafa;
   overflow-x: hidden;
-  background: url('./assets/images/bg.png');
+  background: url('./assets/images/backgroun.jpg');
   
-  /* background: url('./assets/images/background.jpeg');
+  /* background: url('./assets/images/background.jpeg'); */
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 0.95;  */
  
 }
 

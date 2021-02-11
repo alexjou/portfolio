@@ -56,7 +56,7 @@ export default {
   experiences: [
     {
       title: "Softwrap",
-      date: "2020 - Present",
+      date: "2020 - Hoje",
       description: "Desenvolvedor Full-Stack"
     },
     {
@@ -68,7 +68,7 @@ export default {
   education: [
     {
       title: "Curso de Guia de Turismo - Senac/AL ",
-      date: "2020 - Present",
+      date: "2020 - Hoje",
       description: "Uma paixão minha, que é viajar, decidi me especializar."
     },
     {

@@ -15,7 +15,7 @@ import Particles from 'react-particles-js';
 
 function App() {
   return (
-    <Container className={'top_60'}>
+    <Container className={'top_60'} >
       <Particles
         className="particles_canvas"
         params={{
