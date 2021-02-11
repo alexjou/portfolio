@@ -51,7 +51,7 @@ function App() {
             <Header />
             <div className="main-content container_shadow">
               <Switch>
-                <Route path="/po">
+                <Route path="/port">
                   <Portfolio />
                 </Route>
                 <Route path="/contact">

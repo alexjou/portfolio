@@ -40,8 +40,8 @@ const Header = (props) => {
           {/* Portfolio Link */}
           <Nav.Link
             as={NavLink}
-            to="/po"
-            className={pathName === "/po" ? "header_link_active" : "header_link"}>
+            to="/port"
+            className={pathName === "/port" ? "header_link_active" : "header_link"}>
             Portfolio
           </Nav.Link>
 
