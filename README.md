@@ -1,5 +1,9 @@
 <h1 align="center">PORTFOLIO - ReactJS</h1>
 
+<h2 align="center">Um pouco sobre mim</h2>
+
+Site feito com ReactJS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
