@@ -103,3 +103,16 @@
   margin-right: 10px;
   color: black;
 }
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particles_canvas {
+    display: none;
+  }
+}

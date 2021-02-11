@@ -9,6 +9,7 @@ import "./Resume.css";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import TimelineContent from "@material-ui/lab/TimelineContent";
+import Particles from "react-particles-js";
 
 const Resume = () => {
   const BorderLinearProgress = withStyles(() => ({
@@ -83,7 +84,32 @@ const Resume = () => {
           </Grid>
         </Grid>
       </Grid>
-
+      <Particles
+        className="particles_canvas"
+        params={{
+          "particles": {
+            "number": {
+              "value": 50
+            },
+            "size": {
+              "value": 3
+            },
+            "shape": {
+              "stroke": {
+                "width": "6",
+                "color": "#53e2f5"
+              }
+            }
+          },
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              }
+            }
+          }
+        }} />
       {/* Services */}
       <Grid container className="section pb_45">
         <Grid item className="section_title mb_30">

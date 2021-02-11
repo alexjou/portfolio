@@ -56,6 +56,7 @@
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   margin-bottom: 30px;
+  z-index: 1;
 }
 
 .section_title {
@@ -88,4 +89,17 @@
 
 .graybg {
   background-color: #fafafa;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particles_canvas {
+    display: none;
+  }
 }
