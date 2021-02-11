@@ -60,11 +60,6 @@ export default {
       description: "Desenvolvedor Full-Stack"
     },
     {
-      title: "Desenvolvedor de jogos",
-      date: "2018 - 2018 - 3 messes",
-      description: "Unity"
-    },
-    {
       title: "Mercadinho Baratotal",
       date: "2011 - 2020",
       description: "Microempreendedor, Analista de sistema"
