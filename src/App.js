@@ -51,13 +51,13 @@ function App() {
             <Header />
             <div className="main-content container_shadow">
               <Switch>
-                <Route path="/port">
+                <Route path="/portfolio/port">
                   <Portfolio />
                 </Route>
-                <Route path="/contact">
+                <Route path="/portfolio/contact">
                   <Contact />
                 </Route>
-                <Route path="/">
+                <Route path="/portfolio">
                   <Resume />
                 </Route>
               </Switch>
