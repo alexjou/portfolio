@@ -49,17 +49,17 @@ const Resume = () => {
               <Grid container spacing={2}>
                 <Grid item xs={12}>
                   <Typography className="contactInfo_item">
-                    <span>Addresss: </span> {resumeData.address}
+                    <span>Endereço: </span> {resumeData.address}
                   </Typography>
                 </Grid>
                 <Grid item xs={12}>
                   <Typography className="contactInfo_item">
-                    <span>Phone: </span> {resumeData.phone}
+                    <span>Telefone: </span> {resumeData.phone}
                   </Typography>
                 </Grid>
                 <Grid item xs={12}>
                   <Typography className="contactInfo_item">
-                    <span>E-mail: </span> {resumeData.email}
+                    <span>E-mail: </span> jou...
                   </Typography>
                 </Grid>
               </Grid>
