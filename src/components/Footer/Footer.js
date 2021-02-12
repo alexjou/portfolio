@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer_right">
         <Typography className="footer_copyright">
           Desenvolvido por {" "}
-          <a href="/" target="_blank">
+          <a href="/portfolio" target="_blank">
             Álex Joubert.
           </a>
           <br />
