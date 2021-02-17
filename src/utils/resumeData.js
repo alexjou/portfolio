@@ -18,6 +18,7 @@ import meudindin1 from '../assets/images/meudindin1.jpg';
 import meudindin2 from '../assets/images/meudindin2.jpg';
 import meudindin3 from '../assets/images/meudindin3.jpg';
 import meudindin4 from '../assets/images/meudindin4.jpg';
+import GetAppRoundedIcon from '@material-ui/icons/GetAppRounded';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -250,7 +251,7 @@ export default {
       ],
       title: "DocList - Privado",
       caption: "Aplicativo para administrar pacientes",
-      description: "Aplicativo para administrar pacientes",
+      description: "Aplicativo para administrar pacientes, back-end feito no firebase",
       // links: [
       //   { link: "https://www.google.com", icon: <YouTube /> },
       //   { link: "https://www.google.com", icon: <GitHubIcon /> },
@@ -268,12 +269,12 @@ export default {
       ],
       title: "MeuDinDin",
       caption: "Aplicativo para controle financeiro",
-      description: "Registre suas movimentações com receitas(+) e despesas(-) com observações e veja seu saldo. (Em desenvolvimento...)",
-      // links: [
-      //   { link: "https://www.google.com", icon: <YouTube /> },
-      //   { link: "https://www.google.com", icon: <GitHubIcon /> },
-      //   { link: "https://www.google.com", icon: <Language /> },
-      // ]
+      description: "Registre suas movimentações com receitas(+) e despesas(-) com observações e veja seu saldo. Back-end feito no firebase (Em desenvolvimento...). \n\n Link para download a baixo.",
+      links: [
+        // { link: "https://www.google.com", icon: <YouTube /> },
+        // { link: "https://www.google.com", icon: <GitHubIcon /> },
+        { link: "https://firebasestorage.googleapis.com/v0/b/turismo-648f9.appspot.com/o/MeuDinDin.apk?alt=media&token=f2bf2338-8be9-4ef0-9a6f-e8ce2eafbd5e", icon: <GetAppRoundedIcon style={{ color: "#000" }} /> },
+      ]
     },
   ]
 
