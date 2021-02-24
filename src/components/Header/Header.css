@@ -41,8 +41,7 @@
 
 .header .header_left {
   margin-right: auto;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 .header .header_right {
@@ -54,4 +53,17 @@
   font-size: 16px !important;
   margin-right: 12px;
   color: black;
+}
+
+@media(max-width: 768px) {
+
+  .header .header_left {
+    margin: 10px; 
+  }
+
+  .header .header_right {
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }

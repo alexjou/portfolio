@@ -47,7 +47,7 @@ const Profile = () => {
           <CustomTimelineItem title='Endereço' text={resumeData.address} />
         </CustomTimeline>
         <div className="button_container">
-          <CustomButton href="https://firebasestorage.googleapis.com/v0/b/turismo-648f9.appspot.com/o/Profile.pdf?alt=media&token=560fc115-f7c2-4443-9dc0-93d6942856d3" text={'Download CV'} icon={<GetAppIcon />} />
+          <CustomButton href="http://bit.ly/JoubertProfile" text={'Download CV'} icon={<GetAppIcon />} />
         </div>
       </div>
     </div>

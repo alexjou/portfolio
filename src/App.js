@@ -43,12 +43,12 @@ function App() {
           }
         }} />
       <Grid container spacing={7}>
-        <Grid item xs={12} sm={12} md={4} lg={3}>
+        <Grid item xs={12} sm={12} md={4} lg={3} className="perfi">
           <Profile />
         </Grid>
         <Grid item xs>
           <Router>
-            <Header />
+            <Header className="header" />
             <div className="main-content container_shadow">
               <Switch>
                 <Route path="/portfolio/port">

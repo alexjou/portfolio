@@ -29,7 +29,7 @@ const Portfolio = () => {
             value="Todas"
             className={tabValue === "Todas" ? "customTabs_item active" : "customTabs_item"} />
 
-          {[...new Set(resumeData.projects.map((item) => item.tag))].map(
+          {[...new Set(resumeData.projects.map((item, index) => item.tag))].map(
             (tag, index) => (
               <Tab
                 key={index}
@@ -52,7 +52,7 @@ const Portfolio = () => {
                       <CardActionArea>
                         <CardMedia
                           className="customCard_image"
-                          image={project.image[0].link}
+                          image={project.cover}
                           title={project.title} />
                         <CardContent>
                           <Typography variant={"body2"} className="customCard_title">{project.title}</Typography>

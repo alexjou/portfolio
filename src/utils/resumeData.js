@@ -3,17 +3,18 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import { Language, WebOutlined, YouTube } from "@material-ui/icons";
+import { Language, WebOutlined } from "@material-ui/icons";
 import MobileFriendlyIcon from "@material-ui/icons/MobileFriendly";
 import WallpaperIcon from "@material-ui/icons/Wallpaper";
 import FilterHdrIcon from '@material-ui/icons/FilterHdr';
-import doclist from '../assets/images/doclist.png';
+import doclist0 from '../assets/images/doclist0.png';
 import doclist1 from '../assets/images/doclist1.jpeg';
 import doclist2 from '../assets/images/doclist2.jpeg';
 import doclist3 from '../assets/images/doclist3.jpeg';
 import doclist4 from '../assets/images/doclist4.jpeg';
 import portfolio from '../assets/images/portfolio.png';
-import meudindin from '../assets/images/meudindin.png';
+import portfolio0 from '../assets/images/portfolio0.png';
+import meudindin0 from '../assets/images/meudindin0.png';
 import meudindin1 from '../assets/images/meudindin1.jpg';
 import meudindin2 from '../assets/images/meudindin2.jpg';
 import meudindin3 from '../assets/images/meudindin3.jpg';
@@ -126,43 +127,43 @@ export default {
       description: [
         {
           name: "VueJS",
-          porcentage: "30",
+          porcentage: 30,
         },
         {
           name: "Ionic",
-          porcentage: "30",
+          porcentage: 30,
         },
         {
           name: "Angular",
-          porcentage: "30",
+          porcentage: 30,
         },
         {
           name: "ReactJS",
-          porcentage: "70",
+          porcentage: 70,
         },
         {
           name: "Bootstrap",
-          porcentage: "60",
+          porcentage: 60,
         },
         {
           name: "JavaScript",
-          porcentage: "60",
+          porcentage: 60,
         },
         {
           name: "TypeScript",
-          porcentage: "40",
+          porcentage: 40,
         },
         {
           name: "Material UI",
-          porcentage: "60",
+          porcentage: 60,
         },
         {
           name: "React Native",
-          porcentage: "70",
+          porcentage: 70,
         },
         {
           name: "Ruby On Rails",
-          porcentage: "60",
+          porcentage: 60,
         }
       ],
     },
@@ -171,15 +172,15 @@ export default {
       description: [
         {
           name: "Java",
-          porcentage: "30"
+          porcentage: 30
         },
         {
           name: "NodeJS",
-          porcentage: "50"
+          porcentage: 50
         },
         {
           name: "Ruby On Rails",
-          porcentage: "50"
+          porcentage: 50
         },
       ]
     },
@@ -188,19 +189,19 @@ export default {
       description: [
         {
           name: "PHP",
-          porcentage: "40"
+          porcentage: 40
         },
         {
           name: "MySql",
-          porcentage: "50"
+          porcentage: 50
         },
         {
           name: "Firebase",
-          porcentage: "70"
+          porcentage: 70
         },
         {
           name: "PostgreSQL",
-          porcentage: "50"
+          porcentage: 50
         },
       ]
     },
@@ -209,19 +210,19 @@ export default {
       description: [
         {
           name: "Git",
-          porcentage: "60"
+          porcentage: 60
         },
         {
           name: "Trello",
-          porcentage: "70"
+          porcentage: 70
         },
         {
           name: "Gitlab",
-          porcentage: "60"
+          porcentage: 60
         },
         {
           name: "Github",
-          porcentage: "60"
+          porcentage: 60
         },
       ]
     }
@@ -229,6 +230,7 @@ export default {
   projects: [
     {
       tag: "ReactJS",
+      cover: portfolio0,
       image: [
         { link: portfolio },
       ],
@@ -237,13 +239,13 @@ export default {
       description: "Desenvolvi em ReacJS, tanto para aprendizado quanto para ter meu próprio portfolio.",
       links: [
         // { link: "https://www.google.com", icon: <GitHubIcon /> },
-        { link: "/", icon: <Language /> },
+        { link: "/portfolio", icon: <Language /> },
       ]
     },
     {
       tag: "React Native",
+      cover: doclist0,
       image: [
-        { link: doclist },
         { link: doclist1 },
         { link: doclist2 },
         { link: doclist3 },
@@ -260,8 +262,8 @@ export default {
     },
     {
       tag: "React Native",
+      cover: meudindin0,
       image: [
-        { link: meudindin },
         { link: meudindin1, },
         { link: meudindin2 },
         { link: meudindin3 },
@@ -273,7 +275,7 @@ export default {
       links: [
         // { link: "https://www.google.com", icon: <YouTube /> },
         // { link: "https://www.google.com", icon: <GitHubIcon /> },
-        { link: "https://firebasestorage.googleapis.com/v0/b/turismo-648f9.appspot.com/o/MeuDinDin.apk?alt=media&token=f2bf2338-8be9-4ef0-9a6f-e8ce2eafbd5e", icon: <GetAppRoundedIcon style={{ color: "#000" }} /> },
+        { link: "http://bit.ly/MeuDinDin", icon: <GetAppRoundedIcon style={{ color: "#000" }} /> },
       ]
     },
   ]

@@ -6,11 +6,9 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   HomeRounded,
-  Telegram,
 } from "@material-ui/icons"
 import { NavLink, withRouter } from "react-router-dom";
 import resumeData from "../../utils/resumeData";
-import CustomButton from "../Button/Button";
 import "./Header.css";
 
 

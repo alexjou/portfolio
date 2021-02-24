@@ -102,4 +102,14 @@
   .particles_canvas {
     display: none;
   }
+
+  .header {
+    position: absolute;
+    width: 91.5%;
+    transform: translateY(20%)
+  }
+
+  .perfi {
+    margin-top: 18% !important;
+  }
 }
